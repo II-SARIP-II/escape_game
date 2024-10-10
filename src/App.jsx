@@ -2,8 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage.jsx';
 import JoinGame from './pages/JoinGame.jsx';
 import NotFound from './pages/NotFound';
-import Navbar from "./pages/Navbar.jsx";
 import { isMobile } from 'react-device-detect';
+import "./styles/App.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function useMobileOverride() {
     const params = new URLSearchParams(window.location.search);
@@ -16,14 +18,30 @@ function App() {
     const renderContent = () => {
         if (isMobile || isMobileOverride) {
             return (
-                <div>
-                    <Navbar />
-                    <Routes>
-                        <Route path="/home" element={<HomePage />} />
-                        <Route path="/about" element={<JoinGame />} />
-                        <Route path="*" element={<NotFound />} />
-                    </Routes>
+                <div className={"All"}>
+                    <div className={"wrapper"}>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                        <span><i className={"fa fa-star"}></i></span>
+                    </div>
+                    <div className={"box-area"}>
+                        <div className={"text-area"}>
+                            <Routes>
+                                <Route path="/home" element={<HomePage/>}/>
+                                <Route path="/about" element={<JoinGame/>}/>
+                                <Route path="*" element={<NotFound/>}/>
+                            </Routes>
+                        </div>
+                    </div>
                 </div>
+
             );
         }
         return <div>Ce site est accessible uniquement sur mobile.</div>;

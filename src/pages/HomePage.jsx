@@ -1,7 +1,7 @@
 function HomePage() {
     return (
         <div>
-            <h1>PARMI NOUS</h1>
+            <h1>PARMI NOUSSSSSSSSS SSS SSSS SSSSS SSSSSSSSSSS</h1>
         </div>
     );
 }
