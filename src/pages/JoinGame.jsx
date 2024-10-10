@@ -1,4 +1,4 @@
-function About() {
+function JoinGame() {
     return (
         <div>
             <h1>ABOUT</h1>
@@ -6,4 +6,4 @@ function About() {
     );
 }
 
-export default About;
+export default JoinGame;
