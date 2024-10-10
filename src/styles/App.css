@@ -4,11 +4,13 @@
   text-align: center;
   height: 100vh;
 }
+
 .All{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 body{
   background-color: var(--black);
   height: 100vh;

@@ -34,7 +34,7 @@ function App() {
                     <div className={"box-area"}>
                         <div className={"text-area"}>
                             <Routes>
-                                <Route path="/home" element={<HomePage/>}/>
+                                <Route path="/" element={<HomePage/>}/>
                                 <Route path="/about" element={<JoinGame/>}/>
                                 <Route path="*" element={<NotFound/>}/>
                             </Routes>
