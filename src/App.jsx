@@ -44,7 +44,7 @@ function App() {
 
             );
         }
-        return <div>Ce site est accessible uniquement sur mobile.</div>;
+        return <div>Ce site est accessibleeeeee uniquement sur mobile.</div>;
     };
 
     return (
