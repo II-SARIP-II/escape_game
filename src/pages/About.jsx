@@ -1,7 +1,7 @@
 function About() {
     return (
         <div>
-            <h1>CACA</h1>
+            <h1>ABOUT</h1>
         </div>
     );
 }

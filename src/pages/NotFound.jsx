@@ -1,7 +1,7 @@
 function NotFound() {
     return (
         <div>
-            <h1>PIPI</h1>
+            <h1>IMPASTA</h1>
         </div>
     );
 }

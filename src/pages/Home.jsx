@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div>
-            <h1>PROUT</h1>
+            <h1>PARMI NOUS</h1>
         </div>
     );
 }
